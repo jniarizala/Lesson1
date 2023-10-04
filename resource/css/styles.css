@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+
+}
+
+.logo{
+    height: 55px;
+}
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(#754664a3, #754664a3),url('../img/marky10.png');    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card1{
+    background-color: #1c1c1cb5;
+}
+
+.card2{
+    background-color: rgba(203, 137, 148, 0.792);
+}
+
+.bg-custom{
+    background-color: pink;
+}
+.carousel-img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.gallery{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn-primary{
+    background-color: pink;
+    border-color: black;
+    color: black;
+}
+
+.about_us{
+    height: 150vh;
+    background-image: linear-gradient(#131213a3, #131213a3), url('../img/galleon3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: #ffd3e7;
+    color: #000000;
+    padding: 5px 0;
+  }
